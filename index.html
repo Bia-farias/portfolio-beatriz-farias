@@ -1,17 +1,496 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description"
+        content="Portfólio de Beatriz Farias - Desenvolvedor Front-End. Especialista em criar interfaces modernas, responsivas e de alta performance.">
+    <title>Beatriz Farias | Desenvolvedor Front-End</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>MENTORIA da bia !!!</h1>
-    <div>
-        <p>Boa noite</p>
-    </div>
+
+    <!-- Elementos Decorativos de Fundo -->
+    <div class="bg-glow"></div>
+    <div class="bg-glow-right"></div>
+
+    <!-- Navegação (Header) -->
+    <header class="header" id="header">
+        <div class="container navbar">
+            <a href="#home" class="logo">
+
+            </a>
+
+            <button class="hamburger" id="hamburger-btn" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Página Inicial (Hero Section) -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-tag">Disponível para novos projetos</span>
+                    <h1 class="hero-title">Olá, eu sou <br><span class="gradient-text">Beatriz Farias</span></h1>
+                    <div class="hero-subtitle">
+                        <span class="typing-text" id="typing-text">Desenvolvedora Front-End Júnior</span>
+                    </div>
+                    <p class="hero-description">
+                        Especializada em criar interfaces de usuário modernas, elegantes e altamente responsivas.
+                        Transformo designs em código semântico, performático e acessível.
+                    </p>
+                    <div class="hero-buttons">
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Contato
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image reveal reveal-delay-2">
+                    <div class="avatar-wrapper" id="avatar-parallax">
+                        <img src="assets/AVATAR BEATRIZ.png" alt="Foto de Beatriz Farias" class="avatar-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Sobre Mim</h2>
+                    <p>
+                        Olá, eu sou Beatriz Farias, natural de Caracol-PI, residente em São Paulo-SP,
+                        Desenvolvedora Front-End Júnior apaixonada por criar interfaces modernas,
+                        responsivas e intuitivas. Tenho experiência com HTML, CSS, JavaScript
+                        e estou em constante evolução, explorando novas tecnologias e boas práticas de
+                        desenvolvimento web.
+
+                        Atualmente focado em:
+
+                        Desenvolvimento Front-End
+                        Interfaces responsivas e acessíveis
+                        JavaScript moderno (ES6+)
+                        Versionamento com Git e GitHub </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image reveal">
+                        <div class="about-info-boxes">
+                            <div class="info-box">
+                                <div class="info-box-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    </svg>
+                                </div>
+                                <h4>Experiência</h4>
+                                <p>
+                                    Desenvolvedora Front-End Júnior em constante aprendizado,
+                                    adquirindo experiência através de projetos práticos e estudos contínuos.
+                                </p>
+
+                                <p>Projetos práticos e freelances</p>
+                            </div>
+                            <div class="info-box">
+                                <div class="info-box-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                        <polyline points="2 17 12 22 22 17"></polyline>
+                                        <polyline points="2 12 12 17 22 12"></polyline>
+                                    </svg>
+                                </div>
+                                <h4>Educação</h4>
+                                <p>Análise e Des. de Sistemas</p>
+                                <p>Certificações Web</p>
+                            </div>
+                            <div class="info-box">
+                                <div class="info-box-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                    </svg>
+                                </div>
+                                <h4>Projetos</h4>
+                                <p>50+ Concluídos</p>
+                                <p>Aplicações modernas e SPA</p>
+                            </div>
+                            <div class="info-box">
+                                <div class="info-box-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                    </svg>
+                                </div>
+                                <h4>Colaboração</h4>
+                                <p>Git / GitHub</p>
+                                <p>Metodologias ágeis</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-details reveal reveal-delay-2">
+                        <h3>Transformando ideias em interfaces interativas e eficientes</h3>
+                        <div class="about-text">
+                            <p>
+                                Meu interesse em desenvolvimento web começou ao perceber como o código pode impactar
+                                diretamente a vida das pessoas através da tela de um dispositivo. Desde então, foquei em
+                                especializar-me no ecossistema front-end.
+                            </p>
+                            <p>
+                                Busco constantemente desenvolver projetos rápidos, intuitivos e acessíveis, priorizando
+                                a semântica do HTML, arquitetura limpa em CSS e o uso eficiente de Javascript moderno.
+                                Meu objetivo atual é criar interfaces ricas em detalhes e contribuir para o crescimento
+                                de times ágeis.
+                            </p>
+                            <p>
+                                Quando não estou codificando, gosto de estudar novos padrões de design de interface, ler
+                                artigos de tecnologia e praticar UI/UX no Figma para expandir minhas habilidades de
+                                design.
+                            </p>
+                            <div style="margin-top: 30px;">
+                                <a href="#contact" class="btn btn-primary">Fale Comigo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Habilidades -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Minhas Habilidades</h2>
+                    <p>As tecnologias que utilizo diariamente para dar vida a interfaces inovadoras</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- HTML5 -->
+                    <div class="skill-card reveal">
+                        <div class="skill-body">
+                            <div class="skill-header">
+                                <div class="skill-title-group">
+                                    <div class="skill-icon-wrapper" style="color: #e34c26;">
+                                        <!-- HTML5 Icon -->
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path
+                                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.625 11.203.001.244-2.625H5.414l.72 8.125h8.21l-.294 3.281-2.073.562-2.094-.562-.134-1.5H7.078l.258 2.906 4.641 1.25 4.672-1.25.618-6.938H8.531z" />
+                                        </svg>
+                                    </div>
+                                    <span class="skill-name">HTML5</span>
+                                </div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <p>Tags semânticas, acessibilidade (A11y) e SEO otimizado na raiz da estrutura de qualquer
+                                página web.</p>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" data-progress="95%"></div>
+                        </div>
+                    </div>
+
+                    <!-- CSS3 -->
+                    <div class="skill-card reveal reveal-delay-1">
+                        <div class="skill-body">
+                            <div class="skill-header">
+                                <div class="skill-title-group">
+                                    <div class="skill-icon-wrapper" style="color: #264de4;">
+                                        <!-- CSS3 Icon -->
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path
+                                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.625 11.203.001.244-2.625H5.414l.72 8.125h8.21l-.294 3.281-2.073.562-2.094-.562-.134-1.5H7.078l.258 2.906 4.641 1.25 4.672-1.25.618-6.938H8.531z"
+                                                style="transform: scaleX(-1) translate(-24px, 0);" />
+                                        </svg>
+                                    </div>
+                                    <span class="skill-name">CSS3</span>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <p>Flexbox, Grid Layout, animações avançadas, variáveis CSS e efeitos modernos como
+                                Glassmorphic UI.</p>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" data-progress="90%"></div>
+                        </div>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="skill-card reveal reveal-delay-2">
+                        <div class="skill-body">
+                            <div class="skill-header">
+                                <div class="skill-title-group">
+                                    <div class="skill-icon-wrapper" style="color: #f7df1e;">
+                                        <!-- JS Icon -->
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path
+                                                d="M0 0h24v24H0V0zm22.034 18.268c-.153-1.047-.745-1.916-2.034-2.399-.59-.253-1.12-.418-1.58-.562-.46-.144-.766-.27-.766-.562 0-.253.214-.418.515-.418.306 0 .55.122.801.459l1.837-1.148c-.489-.796-1.25-1.378-2.52-1.378-1.745 0-2.923 1.03-2.923 2.525 0 1.592 1.04 2.19 2.52 2.679.873.291 1.48.459 1.801.622.321.164.444.378.444.622 0 .337-.306.567-.826.567-.582 0-.98-.291-1.32-.826l-1.9 1.132c.567 1.087 1.577 1.776 3.138 1.776 2.087.001 3.235-1.117 3.235-2.973zm-8.877-.52c-.153-.75-.612-1.347-1.424-1.577l-.153-.046v3.291c.214.076.428.107.612.107.474 0 .765-.214.908-.612.062-.169.062-.705.057-1.163zm-4.326.658c0 .352-.168.52-.49.52-.352 0-.535-.168-.535-.52V12.75H5.438v5.8c0 1.515.933 2.449 2.43 2.449 1.439 0 2.296-.857 2.296-2.296V12.75H7.831v5.656z" />
+                                        </svg>
+                                    </div>
+                                    <span class="skill-name">JavaScript</span>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <p>ES6+, consumo de APIs REST, manipulação avançada de DOM, funções assíncronas e lógica
+                                pura estruturada.</p>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" data-progress="90%"></div>
+                        </div>
+                    </div>
+
+                    <!-- React -->
+                    <div class="skill-card reveal">
+                        <div class="skill-body">
+                            <div class="skill-header">
+                                <div class="skill-title-group">
+                                    <div class="skill-icon-wrapper" style="color: #61dafb;">
+                                        <!-- React Icon -->
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path
+                                                d="M12 8.44c-1.96 0-3.56 1.6-3.56 3.56s1.6 3.56 3.56 3.56 3.56-1.6 3.56-3.56-1.6-3.56-3.56-3.56zm0 5.62c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm9-2.06c0-.52-.08-1.03-.24-1.52.26.17.51.36.75.56 1.13.97 1.83 2.37 1.83 3.96s-.7 2.99-1.83 3.96c-.24.2-.49.39-.75.56.16-.49.24-1 .24-1.52 0-2.31-1.39-4.32-3.37-5.18 1.98-.86 3.37-2.87 3.37-5.18zm-1.07 4.52c-.67.57-1.47.96-2.36 1.13.25-.49.39-1.04.39-1.62 0-1.51-.95-2.82-2.3-3.36 1.35-.54 2.3-1.85 2.3-3.36 0-.58-.14-1.13-.39-1.62.89.17 1.69.56 2.36 1.13.8.68 1.29 1.67 1.29 2.79s-.49 2.11-1.29 2.79zm-7.93-7.52c-2.31 0-4.32 1.39-5.18 3.37.86-1.98 2.87-3.37 5.18-3.37.52 0 1.03.08 1.52.24-.17-.26-.36-.51-.56-.75-.97-1.13-2.37-1.83-3.96-1.83s-2.99.7-3.96 1.83c-.2.24-.39.49-.56.75.49-.16 1-.24 1.52-.24 2.31 0 4.32 1.39 5.18 3.37-.86-1.98-2.87-3.37-5.18-3.37zm-.56.75c-.57-.67-.96-1.47-1.13-2.36.49.25 1.04.39 1.62.39 1.51 0 2.82-.95 3.36-2.3.54 1.35 1.85 2.3 3.36 2.3.58 0 1.13-.14 1.62-.39-.17.89-.56 1.69-1.13 2.36-.68.8-1.67 1.29-2.79 1.29s-2.11-.49-2.79-1.29zM12 15.56c2.31 0 4.32-1.39 5.18-3.37-.86 1.98-2.87 3.37-5.18 3.37-.52 0-1.03-.08-1.52-.24.17.26.36.51.56.75.97 1.13 2.37 1.83 3.96 1.83s2.99-.7 3.96-1.83c.2-.24.39-.49.56-.75-.49.16-1 .24-1.52.24-2.31 0-4.32-1.39-5.18-3.37.86 1.98 2.87 3.37 5.18 3.37zm.56-.75c.57.67.96 1.47 1.13 2.36-.49-.25-1.04-.39-1.62-.39-1.51 0-2.82.95-3.36 2.3-.54-1.35-1.85-2.3-3.36-2.3-.58 0-1.13.14-1.62.39.17-.89.56-1.69 1.13-2.36.68-.8 1.67-1.29 2.79-1.29s2.11.49 2.79 1.29z" />
+                                        </svg>
+                                    </div>
+                                    <span class="skill-name">React</span>
+                                </div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <p>Criação de componentes dinâmicos, hooks personalizados, gerenciamento de estado (Context,
+                                Redux) e Next.js.</p>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" data-progress="85%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Git & GitHub -->
+                    <div class="skill-card reveal reveal-delay-1">
+                        <div class="skill-body">
+                            <div class="skill-header">
+                                <div class="skill-title-group">
+                                    <div class="skill-icon-wrapper" style="color: #f1502f;">
+                                        <!-- Git Icon -->
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path
+                                                d="M23.28 10.37L13.63.72a2.3 2.3 0 0 0-3.25 0L8.03 3.07l2.84 2.84a2.3 2.3 0 0 1 3.12 3.12l2.9 2.9a2.3 2.3 0 0 1-.22 3.35 2.3 2.3 0 0 1-3.13-.22L10.63 12.1a2.3 2.3 0 0 1-3.37-.22L4.36 9a2.3 2.3 0 0 1-.22-3.13 2.3 2.3 0 0 1 3.35-.22l2.36 2.36 2.83-2.83L10.32.82A2.3 2.3 0 0 0 7.07.82L.72 7.17a2.3 2.3 0 0 0 0 3.25l9.65 9.65a2.3 2.3 0 0 0 3.25 0l9.65-9.65a2.3 2.3 0 0 0 .01-3.05z" />
+                                        </svg>
+                                    </div>
+                                    <span class="skill-name">Git & GitHub</span>
+                                </div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <p>Versionamento de código, ramificações (branching), pull requests, documentação de
+                                repositórios e deploy.</p>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" data-progress="80%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Responsive Design -->
+                    <div class="skill-card reveal reveal-delay-2">
+                        <div class="skill-body">
+                            <div class="skill-header">
+                                <div class="skill-title-group">
+                                    <div class="skill-icon-wrapper" style="color: #00bcd4;">
+                                        <!-- Responsive Icon -->
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                                        </svg>
+                                    </div>
+                                    <span class="skill-name">Responsive Design</span>
+                                </div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <p>Abordagem Mobile-First, grids flexíveis, breakpoints adequados para layouts perfeitos em
+                                telas de qualquer tamanho.</p>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" data-progress="95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção Contato -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Entre em Contato</h2>
+                    <p>Tem algum projeto em mente ou quer apenas bater um papo? Envie uma mensagem!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <div class="contact-info-title">
+                            <h3>Vamos construir algo incrível juntos</h3>
+                            <p>Estou aberto a oportunidades freelance, projetos de contrato ou posições de tempo
+                                integral.</p>
+                        </div>
+
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>E-mail</h4>
+                                    <p>Biafariass784@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Localização</h4>
+                                    <p>São Paulo, SP - Brasil</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-btn" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-btn" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper reveal reveal-delay-2">
+                        <form id="contact-form" novalidate>
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-input" placeholder=" " required>
+                                <label for="name" class="form-label">Nome</label>
+                                <div class="error-message" id="name-error">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                                    </svg>
+                                    Nome é obrigatório.
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" class="form-input" placeholder=" " required>
+                                <label for="email" class="form-label">E-mail</label>
+                                <div class="error-message" id="email-error">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                                    </svg>
+                                    Por favor, insira um e-mail válido.
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" class="form-input" placeholder=" " required></textarea>
+                                <label for="message" class="form-label">Mensagem</label>
+                                <div class="error-message" id="message-error">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                                    </svg>
+                                    Mensagem não pode ficar em branco.
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                Enviar Mensagem
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+
+                            <div class="form-status" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé (Footer) -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="footer-copyright">
+                &copy; 2026 Beatriz Farias. Todos os direitos reservados.
+            </p>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Início</a>
+                <a href="#about" class="footer-link">Sobre</a>
+                <a href="#contact" class="footer-link">Contato</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão de Voltar ao Topo -->
+    <button class="scroll-top" id="scroll-top-btn" aria-label="Voltar ao topo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
