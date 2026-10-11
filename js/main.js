@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
        Efeito de Digitação (Typing Effect)
        ========================================================================== */
     const typingSpan = document.getElementById('typing-text');
-    const roles = ['Desenvolvedor Front-End', 'Criador de Interfaces', 'Especialista em React', 'Focado em UX/UI'];
+    const roles = ['Desenvolvedora Front-End', 'Criadora de Interfaces', 'Especialista em React', 'Focada em UX/UI'];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
