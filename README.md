@@ -23,7 +23,11 @@ O site está publicado e acessível publicamente através do link:
 - **Totalmente Responsivo**: Layout fluido e adaptado com abordagem Mobile-First para smartphones, tablets e desktops.
 - **Menu Mobile Interativo**: Navegação suave com menu hamburger animado.
 - **Seção Sobre Mim**: Resumo de jornada profissional, objetivos e caixas de destaque em experiência, educação e metodologias.
-- **Cards de Habilidades Técnicas**: Barras de progresso animadas e visualização clara de competências em HTML5, CSS3, JavaScript ES6+, React e Git/GitHub.
+- **Cards de Habilidades Técnicas**: Barras de progresso animadas e visualização clara de competências em HTML5, CSS3, JavaScript ES6+, TypeScript, React, Tailwind CSS e Git/GitHub.
+- **Vitrine de Projetos em Destaque**: Galeria interativa com filtros dinâmicos por categoria (SaaS & IA, Fintech, Landing Pages), badges, métricas reais, links para Demonstração Online e código-fonte no GitHub:
+  - ⚡ **Agenda AI**: SaaS Multi-tenant de Agendamento & CRM com IA (React 18, TypeScript, Tailwind, Zustand, Vitest, Supabase, Groq AI).
+  - 🏦 **Sistema de Conciliação Bancária**: Plataforma inteligente com 7 estratégias de conciliação, OCR com Groq Vision e dashboards interativos com Chart.js.
+  - 🔥 **Super Grill & Maria da Villa**: Landing page institucional premium para 11 restaurantes em shoppings de São Paulo.
 - **Formulário e Links de Contato**: Acesso direto para envio de mensagens, redes sociais e conexões profissionais.
 
 ---
@@ -40,8 +44,11 @@ O site está publicado e acessível publicamente através do link:
 
 ```text
 portfolio-beatriz-farias/
-├── assets/                  # Imagens, avatares e recursos visuais
-│   └── AVATAR BEATRIZ.png
+├── assets/                  # Imagens, avatares e recursos visuais dos projetos
+│   ├── AVATAR BEATRIZ.png
+│   ├── projeto-agenda-ai.jpg
+│   ├── projeto-conciliacao.jpg
+│   └── projeto-super-grill.jpg
 ├── css/                     # Folhas de estilo da aplicação
 │   └── style.css
 ├── js/                      # Scripts e lógica interativa

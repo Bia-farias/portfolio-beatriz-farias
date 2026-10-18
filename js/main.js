@@ -169,6 +169,38 @@ document.addEventListener('DOMContentLoaded', () => {
         navObserver.observe(section);
     });
 
+    /* ==========================================================================
+       Filtros Interativos de Projetos
+       ========================================================================== */
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    if (filterButtons.length > 0 && projectCards.length > 0) {
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    const category = card.getAttribute('data-category');
+                    if (filter === 'all' || category.includes(filter)) {
+                        card.classList.remove('hide');
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(15px)';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 40);
+                    } else {
+                        card.classList.add('hide');
+                    }
+                });
+            });
+        });
+    }
+
 
     /* ==========================================================================
        Efeito Parallax Leve (Hero Section)
